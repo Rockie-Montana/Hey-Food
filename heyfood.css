@@ -1,0 +1,399 @@
+* {
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
+        }
+
+        .hey {
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+        }
+/* .container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        } */
+        /* body {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        } */
+
+        .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:auto;
+        }
+        .login {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        }
+        .sign a{
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: bold;
+        }
+        .up button{
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        padding: 15px;
+        width: 10vw;
+        border: 1.3px solid black;
+font-size: 18px;
+                font-weight: 700;
+        }
+        .food {
+        padding: 10px;
+        margin: 10px;
+        font-weight: 900;
+        }
+        .food h1 {
+        font-size: 100px;
+        }
+        .food .deliver{
+                color: green;
+        }
+        .enter {
+        width: 100%;
+        }
+        .enter form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+        /* text-align: right; */
+        /* justify-content: right; */
+        }
+        .enter button{
+                border-radius: 25px;
+                padding: 18px;
+                background-color: black;
+                color: white;
+                cursor: pointer;
+        }
+        .enter form input {
+        border: 1.3px solid ghostwhite;
+        border-radius: 20px;
+        color: black;
+        background-color: ghostwhite;
+        margin: 10px;
+        padding: 20px;
+        height: 20%;
+        width: 50%;
+        }
+        .find {
+        width: fit-content;
+        }
+        .find form {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 10px;
+        }
+        .find form input {
+        border: 1.3px solid black;
+        border-radius: 20px;
+        color: white;
+        background-color: black;
+        margin: 10px;
+        padding: 10px;
+        height: 20%;
+        }
+        .foods img {
+        width: 100%;
+        height: 90vh;
+        }
+        .play-app {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        align-items: center;
+        }
+        .play-app button {
+                border-radius: 30px;
+                border: 1px solid black;
+                background-color: black;
+                width: 15%;
+                padding: 20px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+        }
+        .play-app button .fa-apple, .fa-google-play{
+                color: white;
+                font-size: 20px;
+        font-weight: 600;
+        }
+        .play-app button a{
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        
+        
+         }
+        .kitchen {
+        display: grid;
+        grid-template-columns: repeat(2,6fr);
+        justify-content: space-between;
+        column-gap: 3rem;
+        width: 90%;
+        margin:5rem auto;
+        
+        }
+        .burger img {
+        width: 100vh;
+        height: 80%;
+        /* margin: 10px; */
+        }
+        .burger{
+                display: flex;
+                flex-direction: column;
+                margin-top: 3rem;
+        }
+        .burger h2 a{
+        color: green;
+        text-decoration: none;
+        /* margin: 7vh; */
+        font-size: 20px;
+        font-weight: 400;
+        }
+        .burger h2{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+        }
+        h2 .fa-arrow-right{
+                color: green;
+        }
+        .burger h1 {
+        padding: 5px;
+        margin: 5px;
+        }
+        .burger p {
+        padding: 5px;
+        margin: 5px;
+        }
+        
+        .heyfoods{
+                display: grid;
+                grid-template-columns: 7fr 5fr;
+                justify-content: space-around;
+                padding: 10px;
+                margin: 10px;
+        }
+        .variety{
+                padding: 10vh;
+        }
+        .variety h1{
+                padding: 10px;
+                margin: 10px;
+                font-size: 3rem;
+                font-weight: 700;
+        }
+        .variety p{
+                margin: 10px;
+                font-size: 1.5rem;
+                font-weight: 300;
+        }
+        .variety button a{
+                text-decoration: none;
+                color: white;
+        }
+        .variety button{
+                background-color: black;
+                padding:20px 20px;
+                border: 1px solid black;
+                border-radius: 30px;
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 7px;
+                font-weight: 400;
+                font-size: 18px;
+                margin-top: 30px;
+        }
+        .variety button .fa-arrow-right{
+                color: white;
+
+        } 
+        .choose img{
+                width: 90%;
+                border-radius: 30px;
+        }
+        .heyfooder{
+                display: grid;
+                grid-template-columns: 5fr 7fr;
+                justify-content: space-around;
+                padding: 10px;
+                margin: 10px;
+        }
+        .with h1{
+                padding: 10px;
+                margin: 10px;
+                font-size: 3rem;
+                font-weight: 790;
+        }
+        .with .expand{
+                 padding: 10px;
+                margin: 10px;
+        }
+         .with .meta{
+                 padding: 10px;
+                margin: 10px;
+        }
+        .rice img{
+                width: 90%;
+                border-radius: 30px;
+        }
+        .three{
+                display: flex;
+        }
+        .manage h1,.manage p{
+        text-align: left;
+        }
+        .auto h1,.auto p{
+                text-align: left;
+        }
+        .dine h1,.dine p{
+                text-align: left;
+        }
+
+        .your button a{
+                text-decoration: none;
+                color: white;
+        }
+        .your button{
+                background-color: black;
+                padding:20px 20px;
+                border: 1px solid black;
+                border-radius: 30px;
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 7px;
+                font-weight: 400;
+                font-size: 18px;
+                margin-top: 30px;
+        }
+        .your button .fa-arrow-right{
+                color: white;
+
+        } 
+        
+        .today img{
+                width:100%;
+                border-radius: 30px;
+                
+        }
+        @media(max-width:960px){
+                .up button{
+                        width: 17vw;
+                }
+                .enter form input{
+                        font-size: 30px;
+                }
+                .enter button{
+                        font-size: 25px;
+                        border-radius: 40px;
+                }
+                .foods img{
+                        height: 30vh;
+                        margin-top: 4rem;
+                }
+                .play-app {
+                        gap: 45px;
+                        margin-top: 3rem;
+                }
+                .play-app button {
+    border-radius: 40px;
+    width: 30%;
+    padding: 25px;
+    gap: 10px;
+}
+        .burger img{
+                width: 100%;
+        }
+        .burger p{
+                font-size: 22px;
+        }
+        .heyfoods{
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 10px;
+        }
+        .choose img{
+                height: 30vh;
+                width: 100%;
+        }
+        .variety{
+                padding: 0;
+                margin-top: 40px;
+        }
+        .variety h1{
+                font-size: 5rem;
+                font-weight: bolder;
+        }
+        .variety button {
+        padding: 20px 15px;
+        border-radius: 30px;
+        width: 40%;
+        font-weight: 300;
+        font-size: 22px;
+        margin-top: 4rem;
+}
+.heyfooder{
+        grid-template-columns: repeat(1, 12fr);
+}
+.rice img {
+    width: 90%;
+    border-radius: 30px;
+    height: 30vh;
+    margin: 100px 50px 20px 50px; 
+}
+.with h1 {
+        margin: 10px 25px;
+        font-size: 4rem;
+        font-weight: 800;
+}
+.with .expand{
+        margin: 10px 25px;
+        font-size: 1.5rem;
+}
+.three {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+.dine img{
+        width: 45%;
+}
+.manage img{
+    width: 35%;
+}
+.manage h3, .dine h3{
+        /* font-weight: bold; */
+        font-size: 135%;
+        margin-top: 20px;
+}
+.with .meta{
+    color: #555D65;   
+}
+        }
